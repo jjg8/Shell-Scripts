@@ -2,7 +2,7 @@
 #
 # Name         Jira Cloud Dashboards—dates in ydhm format
 # Version      2025-08-19.1
-# Description  Uses curl or wget to get the CLI-friendly weather from https://wttr.in very configurable with CLI options to control output.
+# Description  Uses curl or wget to get the CLI-friendly weather from https://wttr.in and is very configurable with CLI options to control output.
 # Author       Jeremy Gagliardi
 # URL          https://github.com/jjg8/Shell-Scripts/tree/main/weather
 # License      GPL-3.0
@@ -323,7 +323,7 @@ AUTHOR
   The '${URL}' web site was created by Igor Chubin.
 
 COPYRIGHT
-  This '${BaseName}' script is copyright © 2024 by Jeremy Gagliardi.  No license.  You may copy it if you give me full attribution as its creator.  See the '${URL}' web site for its copyright information.  Jeremy Gagliardi has no affiliation with Igor Chubin.  This '${BaseName}' script is absolutely free: you are free to change and redistribute it with proper attribution.  There is NO WARRANTY whatsoever.
+  This '${BaseName}' script is copyright © 2024-2025 by Jeremy Gagliardi.  License GPL-3.0.  You may copy it if you give me full attribution as its creator.  See the '${URL}' website for its copyright information.  Jeremy Gagliardi has no affiliation with Igor Chubin or the '${URL}' website.  This '${BaseName}' script is absolutely free: you are free to change and redistribute it with proper attribution.  There is NO WARRANTY whatsoever.
 
 END_OF_Usage
 
