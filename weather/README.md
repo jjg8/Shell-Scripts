@@ -8,11 +8,22 @@ These are some of my more useful shell scripts, all written in Bash.
   - Uses curl or wget to get the CLI-friendly weather from https://wttr.in and is very configurable with CLI options to control output.
 
 Example usage in ~/.bashrc, assuming you put it in ~/bin/...
+```
 ##### Print the weather:
 [[ -n ${PS1} && ${SHLVL} == 1 ]] && ~/bin/weather.sh --output-auto --age 3600 --no-test-error --ignore-tput --keep-error '' 0
+```
+This does the following...
+ - `--output-auto` —  Redirect output into file ~/.weather
+ - `--age 3600` — When using --output-*, check to see if the age of output file is >**n** (in this example _3600_) seconds.  If so, remove it and create a new one.  Otherwise, simply return the contents of the file and exit.  **n** must be a positive integer.  If output file is /dev/*, this option is ignored.
+ - `--no-test-error` — Do not output an error if the weather cannot be downloaded.  If so, simply output the default reply ':-( No weather data )-:' and exit.  Other errors may occur, however.
+ - `--ignore-tput` — If tput doesn't exist or doesn't work, ignore it and keep going.  No checking of the terminal width will occur.
+ - `--keep-error` — Normally, when using --output-*, if an error is encountered, it will remove the output file immediately after displaying it.  This turns off that behavior, especially if you want to honor --age in all circumstances.  This option is ignored if output file begins with /dev/*.
+ - `''` — Specifies the first parameter (Location) as empty (i.e. it will automatically infer if from your public IP's geolocation).
+ - `0` — Specified the second parameter (View option(s)) as `0`, See the web page https://wttr.in/:help for valid View Options.
 
-Help page...
+Complete Help page...
 
+```
 NAME
   Bash script 'weather' - display the weather from https://wttr.in/ at the command line
 
@@ -176,6 +187,6 @@ COPYRIGHT
   This 'weather' script is copyright © 2024-2025 by Jeremy Gagliardi.  License GPL-3.0.  You may copy it if you give me full attribution as its creator.
 See the 'wttr.in' website for its copyright information.  Jeremy Gagliardi has no affiliation with Igor Chubin or the 'wttr.in' website.  This 'weather'
 script is absolutely free: you are free to change and redistribute it with proper attribution.  There is NO WARRANTY whatsoever.
-
+```
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
