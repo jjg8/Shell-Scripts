@@ -4,6 +4,8 @@ Hello and welcome to my Shell Scripts repository.
 
 These are some of my more useful shell scripts, all written in Bash.
 
+- **jira-get-filters**
+  - Export all of the filters owned by you in Jira Cloud, and format it in a GitHub-style README.md file using markdown syntax.
 - **weather**
   - Uses curl or wget to get the CLI-friendly weather from https://wttr.in and is very configurable with CLI options to control output.
 
