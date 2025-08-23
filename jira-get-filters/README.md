@@ -1,0 +1,9 @@
+# Shell Scripts
+
+Hello and welcome to my Shell Scripts repository.
+
+These are some of my more useful shell scripts, all written in Bash.
+
+- **jira-get-filters.sh**
+  - Export all of the filters owned by you in Jira Cloud, and format it in a GitHub-style README.md file using markdown syntax.
+  - This script requires initial setup — See the Setting Up Your Config File section in the script.
