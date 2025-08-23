@@ -5,7 +5,7 @@
 # Description  Export all of the filters owned by you in Jira Cloud, and format it in a GitHub-style README.md file using markdown syntax.
 # Author       Jeremy Gagliardi
 # Version      2025-08-22.1
-# URL          https://github.com/jjg8/Shell-Scripts/blob/main/jira-get-filters
+# URL          https://github.com/jjg8/Shell-Scripts/tree/main/jira-get-filters
 # License      GPL-3.0
 # IMPORTANT    This script requires initial setup — See the Setting Up Your Config File section below.
 #
@@ -885,7 +885,7 @@ RawResult=$( "${EXEC[cat]}" <<END_OF_HEADER
 # My Collection of Jira Cloud Filters
 
 By ${JiraUserName} │ As of ${Date} | No license; these are free to copy and use.<br>
-_This was generated using script_ \`${ScriptBase}\`.<br>
+_This was generated using script_ [${ScriptBase}](https://github.com/jjg8/Shell-Scripts/tree/main/jira-get-filters).<br>
 
 Find what you need and copy these into the **Name**, **Description**, and **JQL** fields, respectively, to create your filter. To update the **Name** and **Description**, you need to click on the _Filter details_ button and then _Edit name and description_. To update the JQL code, you need to switch from _Basic_ to _JQL_, enter the JQL code from below, and press **Enter** to execute it. Don't forget to click **Save filter** when you're all done.<br>
 
