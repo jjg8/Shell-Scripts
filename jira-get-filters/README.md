@@ -10,4 +10,6 @@ These are some of my more useful shell scripts.  In this folder...
     - This script requires initial setup — See the Setting Up Your Config File section in the script.
     - You will need to install the `jq` package.
 
+View the script for more details.
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
