@@ -4,7 +4,7 @@ Hello and welcome to my Shell Scripts repository.
 
 These are some of my more useful shell scripts.  In this folder...
 
-- **weather**
+- **weather** — bash
   - Uses curl or wget to get the CLI-friendly weather from https://wttr.in and is very configurable with CLI options to control output.
 
 Example usage in ~/.bashrc, assuming you put it in ~/bin/...
