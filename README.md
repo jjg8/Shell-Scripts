@@ -2,7 +2,7 @@
 
 Hello and welcome to my Shell Scripts repository.
 
-These are some of my more useful shell scripts, all written in Bash.
+These are some of my more useful shell scripts, and what shell they're written in (e.g. bash, PowerShell)
 
 - **jira-get-filters** — bash
   - Export all of the filters owned by you in Jira Cloud, and format it in a GitHub-style README.md file using markdown syntax.
