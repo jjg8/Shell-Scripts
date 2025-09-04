@@ -5,7 +5,10 @@ Hello and welcome to my Shell Scripts repository.
 These are some of my more useful shell scripts.  In this folder...
 
 - **WinGetEvents** -- PowerShell
-  - Filters Windows event logs based on severity (-l), date/interval (-d, -r), excluded event IDs (-x), and outputs results in XML format with a summary. Event exclusions (-x) are passed as a quoted comma-separated list. Date range (-r) must include exactly two dates (from,to) in "yyyy-mm-dd,yyyy-mm-dd" format.
+  - Filters Windows event logs based on severity level (-l), date/interval (-d or -r), by log names (-n) or System by default, excluding event IDs (-x), and outputs results formatted in
+  either XML or Text with -t with a summary above. Log name inclusions (-n) are passed as a quoted comma-separated list. Event exclusions (-x) are passed as a quoted comma-separated
+  list. Date range (-r) must include exactly 2 dates (from,to) in "yyyy-mm-dd,yyyy-mm-dd" format. With -t, always quote field contents with -q, -qo, or -qc. Output by default goes to
+  the console or to an output file path (-o).
 
 Complete Help page...
 ```
