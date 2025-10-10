@@ -4,7 +4,7 @@ Hello and welcome to my Shell Scripts repository.
 
 These are some of my more useful shell scripts.  In this folder...
 
-- **EmailBot** -- PowerShell
+- **EmailBot** — PowerShell
   - Prompts for all required email info. Set up multiple email address profiles (-p N). Sends a test email (or 2 emails if setting up an Internal & External SMTP services). You can use
   a custom config file (-c "C:\path\to\config.json") or (without -c) simply default to EmailBot.json in the same directory as this script. Send an email: specify the text of the email
   body (-bt "text" or -bf "C:\path\to\body.txt"). Add an attachment(s) (-a "C:\path\to\attachment.ext"). If your SMTP service(s) require user authentication, it'll store the password
